@@ -1,3 +1,5 @@
+//WRONG IMPLEMENTATION DO NOT USE !
+
 import java.util.*;
 
 public class Doremy_Paint_3 {
