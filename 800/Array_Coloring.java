@@ -1,3 +1,5 @@
+// Calculate sum of all the elements at end of the day
+
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -38,3 +40,4 @@ public class Array_Coloring {
         }
     }
 }
+
