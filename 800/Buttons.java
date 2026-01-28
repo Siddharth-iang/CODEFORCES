@@ -1,3 +1,5 @@
+// Check parity
+
 import java.util.Scanner;
 
 public class Buttons {
