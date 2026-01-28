@@ -1,0 +1,64 @@
+import java.util.Scanner;
+
+public class Dont_try_to_count {
+
+    private static boolean Check(String s, String x){
+        if(x.length() < s.length()){
+            return false;
+        }
+
+        for(int i=0; i<=x.length()-s.length(); i++){
+            if(x.substring(i, i+s.length()).equals(s)){
+                return true;
+            }
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+
+        while(t-->0){
+            int n = sc.nextInt();
+            int m = sc.nextInt();
+
+            String x = sc.next();
+            String s = sc.next();
+
+            String x0 = x;
+            String x1 = x0 + x0;
+            String x2 = x1 + x1;
+            String x3 = x2 + x2;
+            String x4 = x3 + x3;
+            String x5 = x4 + x4;
+
+            long ans = -1;
+
+            if(Check(s, x0)){
+                ans = 0;
+            }
+
+            else if(Check(s, x1)){
+                ans = 1;
+            }
+
+            else if(Check(s, x2)){
+                ans = 2;
+            }
+
+            else if(Check(s, x3)){
+                ans = 3;
+            }
+
+            else if(Check(s, x4)){
+                ans = 4;
+            }
+
+            else if(Check(s, x5)){
+                ans = 5;
+            }
+
+            System.out.println(ans);
+        }
+    }
+}
