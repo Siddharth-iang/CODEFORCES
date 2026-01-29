@@ -1,3 +1,5 @@
+//Can also be solved using complex method like creating copy of array
+
 import java.util.*;
 
 public class Twin_Permutations {
