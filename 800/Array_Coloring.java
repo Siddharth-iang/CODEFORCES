@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+// Just check if the sum of all ele in arr =0 
 import java.util.HashMap;
 import java.util.Scanner;
 
