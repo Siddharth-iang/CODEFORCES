@@ -1,3 +1,5 @@
+//900
+
 import java.util.Scanner;
 
 public class MulBy2_or_DivBy6 {
