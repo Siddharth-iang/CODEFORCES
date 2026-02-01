@@ -1,3 +1,5 @@
+//Count operations based of Parity of adjaacent elements
+
 import java.util.Scanner;
 
 public class Ever_like_good_arr {

@@ -1,3 +1,5 @@
+//Just check if prefix 2's == Suffix 2's
+
 import java.util.Scanner;
 
 public class One_and_Two {
