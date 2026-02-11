@@ -1,3 +1,5 @@
+// Use Greedy implementation
+
 import java.util.*;
 import java.io.*;
 
