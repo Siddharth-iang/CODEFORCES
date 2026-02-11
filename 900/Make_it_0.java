@@ -17,6 +17,7 @@ public class Make_it_0 {
             st = new StringTokenizer(br.readLine());
             long a[] = new long[n];
             for(int i=0; i<n; i++){
+<<<<<<< HEAD
                 st.nextToken();
             }
 
@@ -36,5 +37,24 @@ public class Make_it_0 {
         }
         out.flush();
         out.close();
+=======
+                a[i] = Long.parseLong(st.nextToken());
+            }
+
+            if(n%2==0){
+                System.out.println(2);
+                System.out.println(1 +  " " + n);
+                System.out.println(1 + " " + n);
+            }
+
+            else{
+                System.out.println(4);
+                System.out.println(1 +  " " + (n-1));
+                System.out.println(1 + " " + (n-1));
+                System.out.println((n-1) + " " + n);
+                System.out.println((n-1) + " " + n);
+            }
+        }
+>>>>>>> 53f35e294d1f32749f47e8818f869a1a2bb98d7f
     }
 }

@@ -1,3 +1,5 @@
+//Small logical clue and then done
+
 import java.util.Scanner;
 
 public class Vasilijie_in_Crack {

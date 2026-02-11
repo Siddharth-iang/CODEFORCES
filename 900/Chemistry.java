@@ -1,3 +1,5 @@
+//No Chemistry just pure Math
+
 import java.util.*;
 public class Chemistry {
     public static void main(String[] args) {
